@@ -106,7 +106,7 @@ constructor(...args) {
 
 ## 参阅
 
-- [super()](/en-US/docs/Web/JavaScript/Reference/Operators/super)
-- [`class` expression](/en-US/docs/Web/JavaScript/Reference/Operators/class)
-- [`class` declaration](/en-US/docs/Web/JavaScript/Reference/Statements/class)
-- [Classes](/en-US/docs/Web/JavaScript/Reference/Classes)
+- [super()](/zh-CN/docs/Web/JavaScript/Reference/Operators/super)
+- [`class` expression](/zh-CN/docs/Web/JavaScript/Reference/Operators/class)
+- [`class` declaration](/zh-CN/docs/Web/JavaScript/Reference/Statements/class)
+- [Classes](/zh-CN/docs/Web/JavaScript/Reference/Classes)

@@ -50,7 +50,7 @@ typedarray.find(callback[, thisArg])
 
 ### 在类型化数组中寻找质数
 
-下面的示例在类型化数组中寻找质数（如果没有质数则返回 [`undefined`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)）。
+下面的示例在类型化数组中寻找质数（如果没有质数则返回 [`undefined`](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)）。
 
 ```js
 function isPrime(element, index, array) {

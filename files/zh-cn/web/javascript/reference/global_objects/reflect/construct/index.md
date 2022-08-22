@@ -19,7 +19,7 @@ Reflect.construct(target, argumentsList[, newTarget])
 - `argumentsList`
   - : 类数组，目标构造函数调用时的参数。
 - `newTarget` {{optional_inline}}
-  - : 作为新创建对象的原型对象的`constructor`属性， 参考 [`new.target`](/en-US/docs/Web/JavaScript/Reference/Operators/new.target) 操作符，默认值为`target。`
+  - : 作为新创建对象的原型对象的`constructor`属性， 参考 [`new.target`](/zh-CN/docs/Web/JavaScript/Reference/Operators/new.target) 操作符，默认值为`target。`
 
 ### `返回值`
 
@@ -123,4 +123,4 @@ d.getFullYear(); // 1776
 
 - {{jsxref("Reflect")}}
 - [`new`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
-- [`new.target`](/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
+- [`new.target`](/zh-CN/docs/Web/JavaScript/Reference/Operators/new.target)

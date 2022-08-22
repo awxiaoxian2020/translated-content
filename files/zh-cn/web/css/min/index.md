@@ -5,7 +5,7 @@ original_slug: Web/CSS/min()
 ---
 {{CSSRef}}
 
-**`min()`** [CSS](/en-US/docs/Web/CSS) 方法允许你从逗号分隔符表达式中选择一个最小值作为 CSS 的属性值。`min()` 方法可以用于以下任何属性中 {{CSSxRef("&lt;length&gt;")}}, {{CSSxRef("&lt;frequency&gt;")}}, {{CSSxRef("&lt;angle&gt;")}}, {{CSSxRef("&lt;time&gt;")}}, {{CSSxRef("&lt;percentage&gt;")}},{{CSSxRef("&lt;number&gt;")}}, 或者 {{CSSxRef("&lt;integer&gt;")}}。
+**`min()`** [CSS](/zh-CN/docs/Web/CSS) 方法允许你从逗号分隔符表达式中选择一个最小值作为 CSS 的属性值。`min()` 方法可以用于以下任何属性中 {{CSSxRef("&lt;length&gt;")}}, {{CSSxRef("&lt;frequency&gt;")}}, {{CSSxRef("&lt;angle&gt;")}}, {{CSSxRef("&lt;time&gt;")}}, {{CSSxRef("&lt;percentage&gt;")}},{{CSSxRef("&lt;number&gt;")}}, 或者 {{CSSxRef("&lt;integer&gt;")}}。
 
 ```css
 /* property: min(expression [, expression]) */
@@ -87,7 +87,7 @@ Think of the `min()` function as finding the maximum value allowed for a propert
 
 ## 无障碍问题
 
-当`min()` 用于控制文本大小时，要保证文本足够大以便于阅读。建议把 min() 方法嵌入到 {{CSSxRef("max", "max()")}} 中， [relative length unit](/en-US/docs/Web/CSS/length#Relative_length_units) 这样就可以便于阅读，比如：
+当`min()` 用于控制文本大小时，要保证文本足够大以便于阅读。建议把 min() 方法嵌入到 {{CSSxRef("max", "max()")}} 中， [relative length unit](/zh-CN/docs/Web/CSS/length#Relative_length_units) 这样就可以便于阅读，比如：
 
 ```css
 small {
@@ -113,4 +113,4 @@ small {
 - {{CSSxRef("calc", "calc()")}}
 - {{CSSxRef("clamp", "clamp()")}}
 - {{CSSxRef("max", "max()")}}
-- [CSS Values](/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
+- [CSS Values](/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)

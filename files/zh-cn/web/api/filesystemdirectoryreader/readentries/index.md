@@ -41,7 +41,7 @@ This API has no official W3C or WHATWG specification.
 
 ## See also
 
-- [File and Directory Entries API](/en-US/docs/Web/API/File_and_Directory_Entries_API)
-- [Introduction to the File System API](/en-US/docs/Web/API/File_and_Directory_Entries_API/Introduction)
+- [File and Directory Entries API](/zh-CN/docs/Web/API/File_and_Directory_Entries_API)
+- [Introduction to the File System API](/zh-CN/docs/Web/API/File_and_Directory_Entries_API/Introduction)
 - {{domxref("FileSystemDirectoryEntry")}}
 - {{domxref("FileSystem")}}

@@ -109,4 +109,4 @@ console.log(obj.baz); // "baz"
 - {{jsxref("Object.defineProperty()")}}
 - {{jsxref("Object.defineGetter", "__defineGetter__")}}
 - {{jsxref("Object.defineSetter", "__defineSetter__")}}
-- [Defining Getters and Setters](/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_getters_and_setters) in JavaScript Guide
+- [Defining Getters and Setters](/zh-CN/docs/Web/JavaScript/Guide/Working_with_Objects#Defining_getters_and_setters) in JavaScript Guide

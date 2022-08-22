@@ -28,7 +28,7 @@ function square(number) {
 }
 ```
 
-函数`square`使用了一个参数，叫作`number`。这个函数只有一个语句，它说明该函数将函数的参数（即`number`）自乘后返回。函数的[`return`](/en-US/docs/JavaScript/Reference/Statements/return)语句确定了函数的返回值：
+函数`square`使用了一个参数，叫作`number`。这个函数只有一个语句，它说明该函数将函数的参数（即`number`）自乘后返回。函数的[`return`](/zh-CN/docs/JavaScript/Reference/Statements/return)语句确定了函数的返回值：
 
 ```js
 return number * number;

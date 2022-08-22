@@ -15,7 +15,7 @@ otherWindow.postMessage(message, targetOrigin, [transfer]);
 ```
 
 - `otherWindow`
-  - : 其他窗口的一个引用，比如 iframe 的 contentWindow 属性、执行[window.open](/en-US/docs/DOM/window.open)返回的窗口对象、或者是命名过或数值索引的[window.frames](/en-US/docs/DOM/window.frames)。
+  - : 其他窗口的一个引用，比如 iframe 的 contentWindow 属性、执行[window.open](/zh-CN/docs/DOM/window.open)返回的窗口对象、或者是命名过或数值索引的[window.frames](/zh-CN/docs/DOM/window.frames)。
 - `message`
   - : 将要发送到其他 window 的数据。它将会被[结构化克隆算法](https://developer.mozilla.org/en-US/docs/DOM/The_structured_clone_algorithm)序列化。这意味着你可以不受什么限制的将数据对象安全的传送给目标窗口而无需自己序列化。\[[1](https://developer.mozilla.org/en-US/docs/)]
 - `targetOrigin`
@@ -49,9 +49,9 @@ message 的属性有：
 - `data`
   - : 从其他 window 中传递过来的对象。
 - `origin`
-  - : 调用 `postMessage` 时消息发送方窗口的 [origin](/en-US/docs/Origin) . 这个字符串由 协议、“://“、域名、“ : 端口号”拼接而成。例如 “`https://example.org` (隐含端口 `443`)”、“`http://example.net` (隐含端口 `80`)”、“`http://example.com:8080`”。请注意，这个 origin 不能保证是该窗口的当前或未来 origin，因为 postMessage 被调用后可能被导航到不同的位置。
+  - : 调用 `postMessage` 时消息发送方窗口的 [origin](/zh-CN/docs/Origin) . 这个字符串由 协议、“://“、域名、“ : 端口号”拼接而成。例如 “`https://example.org` (隐含端口 `443`)”、“`http://example.net` (隐含端口 `80`)”、“`http://example.com:8080`”。请注意，这个 origin 不能保证是该窗口的当前或未来 origin，因为 postMessage 被调用后可能被导航到不同的位置。
 - `source`
-  - : 对发送消息的[窗口](/en-US/docs/DOM/window)对象的引用; 您可以使用此来在具有不同 origin 的两个窗口之间建立双向通信。
+  - : 对发送消息的[窗口](/zh-CN/docs/DOM/window)对象的引用; 您可以使用此来在具有不同 origin 的两个窗口之间建立双向通信。
 
 ## 安全问题
 

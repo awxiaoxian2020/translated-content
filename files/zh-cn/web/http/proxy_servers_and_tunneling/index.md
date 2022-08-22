@@ -55,7 +55,7 @@ See also the [HTTP tunnel article on Wikipedia](https://en.wikipedia.org/wiki/HT
 
 ## Proxy Auto-Configuration (PAC)
 
-A [Proxy Auto-Configuration (PAC)](</en-US/docs/Mozilla/Projects/Necko/Proxy_Auto-Configuration_(PAC)_file>) file is a [JavaScript](/en-US/docs/Web/JavaScript) function that determines whether web browser requests (HTTP, HTTPS, and FTP) go directly to the destination or are forwarded to a web proxy server. The JavaScript function contained in the PAC file defines the function:
+A [Proxy Auto-Configuration (PAC)](</en-US/docs/Mozilla/Projects/Necko/Proxy_Auto-Configuration_(PAC)_file>) file is a [JavaScript](/zh-CN/docs/Web/JavaScript) function that determines whether web browser requests (HTTP, HTTPS, and FTP) go directly to the destination or are forwarded to a web proxy server. The JavaScript function contained in the PAC file defines the function:
 
 The auto-config file should be saved to a file with a `.pac` filename extension:
 

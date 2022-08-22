@@ -60,7 +60,7 @@ new Uint8Array([12, 5, 8, 1, 4]).some(isBiggerThan10); // true
 
 ### Testing typed array elements using arrow functions
 
-[Arrow functions](/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 提供更段的语法做相同的测试。
+[Arrow functions](/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 提供更段的语法做相同的测试。
 
 ```js
 new Uint8Array([2, 5, 8, 1, 4]).some(elem => elem > 10); // false
@@ -80,7 +80,7 @@ if (!Uint8Array.prototype.some) {
 }
 ```
 
-假如你需要支持的过时 JavaScript 引擎不支持[`Object.defineProperty`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)，最好不要使用`Array.prototype`方法填充，因为你不能让它们不可枚举。
+假如你需要支持的过时 JavaScript 引擎不支持[`Object.defineProperty`](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)，最好不要使用`Array.prototype`方法填充，因为你不能让它们不可枚举。
 
 ## 标准
 

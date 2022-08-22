@@ -4,7 +4,7 @@ slug: Web/JavaScript/Shells
 ---
 {{JsSidebar}}
 
-JavaScript shell 可以让你在不刷新一个网页的情况下测试一段 [JavaScript](/en-US/docs/Web/JavaScript) 代码。这在开发和调试代码的时候非常有帮助。
+JavaScript shell 可以让你在不刷新一个网页的情况下测试一段 [JavaScript](/zh-CN/docs/Web/JavaScript) 代码。这在开发和调试代码的时候非常有帮助。
 
 ## 独立的 JavaScript shells
 
@@ -23,9 +23,9 @@ JavaScript shell 可以让你在不刷新一个网页的情况下测试一段 [J
 
 下面的 JavaScript shells 可以与 Mozilla 一起工作。
 
-- Firefox 从第 6 版有个内建的 JavaScript 控制台，叫 [Scratchpad](/en-US/docs/Tools/Scratchpad)。
-- [JavaScript Shell](/en-US/docs/Mozilla/Projects/SpiderMonkey/Introduction_to_the_JavaScript_shell) (`js`) - JavaScript 的命令行解释器。
-- [xpcshell](/en-US/docs/Mozilla/XPConnect/xpcshell) is an [XPConnect](/en-US/docs/Mozilla/Tech/XPCOM/Language_bindings/XPConnect) - 对 Mozilla 开发很有帮助。
+- Firefox 从第 6 版有个内建的 JavaScript 控制台，叫 [Scratchpad](/zh-CN/docs/Tools/Scratchpad)。
+- [JavaScript Shell](/zh-CN/docs/Mozilla/Projects/SpiderMonkey/Introduction_to_the_JavaScript_shell) (`js`) - JavaScript 的命令行解释器。
+- [xpcshell](/zh-CN/docs/Mozilla/XPConnect/xpcshell) is an [XPConnect](/zh-CN/docs/Mozilla/Tech/XPCOM/Language_bindings/XPConnect) - 对 Mozilla 开发很有帮助。
 - [Babel REPL](http://babeljs.io/repl) - 以 web 为基础，主要是实验性的 Javascript 的[REPL](https://en.wikipedia.org/wiki/REPL)。
 - [ES6Console.com](http://es6console.com) - 开源 JavaScript 控制台，用于浏览器中测试 ECMAScript 2015 代码。
 - [jsconsole.com](http://jsconsole.com/) -- 开源 JavaScript 控制台，可以轻松完成特殊表达式的链接。

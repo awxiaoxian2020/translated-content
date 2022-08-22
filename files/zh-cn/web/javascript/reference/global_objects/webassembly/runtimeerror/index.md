@@ -77,6 +77,6 @@ try {
 
 ## 参见
 
-- [WebAssembly](/en-US/docs/WebAssembly) overview page
-- [WebAssembly concepts](/en-US/docs/WebAssembly/Concepts)
-- [Using the WebAssembly JavaScript API](/en-US/docs/WebAssembly/Using_the_JavaScript_API)
+- [WebAssembly](/zh-CN/docs/WebAssembly) overview page
+- [WebAssembly concepts](/zh-CN/docs/WebAssembly/Concepts)
+- [Using the WebAssembly JavaScript API](/zh-CN/docs/WebAssembly/Using_the_JavaScript_API)

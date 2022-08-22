@@ -38,6 +38,6 @@ JavaScript 参考中你能发现如下的章节：
 
 ### 更多参考页面
 
-- [过期废弃的特性](/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features)
-- [词法语法](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar)
-- [数据类型和数据结构](/en-US/docs/Web/JavaScript/Data_structures)
+- [过期废弃的特性](/zh-CN/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features)
+- [词法语法](/zh-CN/docs/Web/JavaScript/Reference/Lexical_grammar)
+- [数据类型和数据结构](/zh-CN/docs/Web/JavaScript/Data_structures)

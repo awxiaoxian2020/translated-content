@@ -39,4 +39,4 @@ console.log(`History.state after pushState: ${history.state}`);
 
 ## See also
 
-- [Working with the History API](/en-US/docs/Web/API/History_API/Working_with_the_History_API)
+- [Working with the History API](/zh-CN/docs/Web/API/History_API/Working_with_the_History_API)

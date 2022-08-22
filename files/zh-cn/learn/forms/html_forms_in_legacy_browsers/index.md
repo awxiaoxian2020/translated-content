@@ -32,7 +32,7 @@ original_slug: Learn/HTML/Forms/HTML_forms_in_legacy_browsers
 
 ## 让事情变得更简单
 
-由于[HTML forms](/en-US/docs/HTML/Forms) 包含复杂的交互，所以有一条法则：[keep it as simple as possible](http://en.wikipedia.org/wiki/KISS_principle)。很多时候，我们想让表单更美观或想使用更高级的技术，然而，构建高效的 HTML 表单不只是设计和技术问题。记得花时间读一下这篇文章 t [forms usability on UX For The Masses](http://www.uxforthemasses.com/forms-usability/).
+由于[HTML forms](/zh-CN/docs/HTML/Forms) 包含复杂的交互，所以有一条法则：[keep it as simple as possible](http://en.wikipedia.org/wiki/KISS_principle)。很多时候，我们想让表单更美观或想使用更高级的技术，然而，构建高效的 HTML 表单不只是设计和技术问题。记得花时间读一下这篇文章 t [forms usability on UX For The Masses](http://www.uxforthemasses.com/forms-usability/).
 
 ### 优雅地降级 (Graceful degradation) 是 web 开发者最好的朋友
 
@@ -80,7 +80,7 @@ HTML5 引入的新 input 类型十分酷，因为他们的降级 (degrade) 是�
 
 #### CSS 属性选择器
 
-[CSS 属性选择器](/en-US/docs/CSS/Attribute_selectors) 在 [HTML Forms](/en-US/docs/HTML/Forms) 中十分有用，然而旧式浏览器不支持。在那种情形下，一般会习惯性使用等价的 class:
+[CSS 属性选择器](/zh-CN/docs/CSS/Attribute_selectors) 在 [HTML Forms](/zh-CN/docs/HTML/Forms) 中十分有用，然而旧式浏览器不支持。在那种情形下，一般会习惯性使用等价的 class:
 
 ```html
 <input type="number" class="number">
@@ -151,7 +151,7 @@ input.button {
 
 ### 让我们过一遍 CSS
 
-HTML 表单和旧式浏览器最大的问题是 CSS 的兼容性。正如你可以从这篇文章 [Property compatibility table for form widgets](/en-US/docs/Property_compatibility_table_for_form_widgets) 中看到的复杂性，它非常的困难。即使仍然可以对文本元素（如大小、字体颜色等）进行一些调整，但那样做会有副作用。最好的办法还是不要美化 HTML 表单小组件。但你仍然可以将样式应用到表单周围的项目上。如果你是一个专业人士，并且你的客户需要那么做，在这种情况下，你可以研究一些硬技能，如 [rebuilding widgets with JavaScript](/en-US/docs/HTML/Forms/How_to_build_custom_form_widgets)。但在那种情况下，最好还是毫不犹豫的[让客户收回这些愚蠢的决定](http://www.smashingmagazine.com/2011/11/03/but-the-client-wants-ie-6-support/)。
+HTML 表单和旧式浏览器最大的问题是 CSS 的兼容性。正如你可以从这篇文章 [Property compatibility table for form widgets](/zh-CN/docs/Property_compatibility_table_for_form_widgets) 中看到的复杂性，它非常的困难。即使仍然可以对文本元素（如大小、字体颜色等）进行一些调整，但那样做会有副作用。最好的办法还是不要美化 HTML 表单小组件。但你仍然可以将样式应用到表单周围的项目上。如果你是一个专业人士，并且你的客户需要那么做，在这种情况下，你可以研究一些硬技能，如 [rebuilding widgets with JavaScript](/zh-CN/docs/HTML/Forms/How_to_build_custom_form_widgets)。但在那种情况下，最好还是毫不犹豫的[让客户收回这些愚蠢的决定](http://www.smashingmagazine.com/2011/11/03/but-the-client-wants-ie-6-support/)。
 
 ## 功能检测和模拟 (polyfills)
 
@@ -204,20 +204,20 @@ Modernizr 团队按照惯例维护着[a list of great polyfills](https://github.
 
 正如你所看到的，处理旧式浏览器不仅仅是表单问题。而是一整套技术;但是掌握所有这些技术超出了本文的范围。
 
-如果你阅读了[HTML Forms guide](/en-US/docs/HTML/Forms)中的所有文章，你应该可以放心的使用表单了。如果你想探索新技术，请帮助[improve the guide](/en-US/docs/Project:How_to_help).
+如果你阅读了[HTML Forms guide](/zh-CN/docs/HTML/Forms)中的所有文章，你应该可以放心的使用表单了。如果你想探索新技术，请帮助[improve the guide](/zh-CN/docs/Project:How_to_help).
 
 {{PreviousMenuNext("Learn/HTML/Forms/Sending_forms_through_JavaScript", "Learn/HTML/Forms/Styling_HTML_forms", "Learn/HTML/Forms")}}
 
 ## In this module
 
-- [Your first HTML form](/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form)
-- [How to structure an HTML form](/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form)
-- [The native form widgets](/en-US/docs/Learn/HTML/Forms/The_native_form_widgets)
-- [Sending form data](/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data)
-- [Form data validation](/en-US/docs/Learn/HTML/Forms/Form_validation)
-- [How to build custom form widgets](/en-US/docs/Learn/HTML/Forms/How_to_build_custom_form_widgets)
-- [Sending forms through JavaScript](/en-US/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript)
+- [Your first HTML form](/zh-CN/docs/Learn/HTML/Forms/Your_first_HTML_form)
+- [How to structure an HTML form](/zh-CN/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form)
+- [The native form widgets](/zh-CN/docs/Learn/HTML/Forms/The_native_form_widgets)
+- [Sending form data](/zh-CN/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data)
+- [Form data validation](/zh-CN/docs/Learn/HTML/Forms/Form_validation)
+- [How to build custom form widgets](/zh-CN/docs/Learn/HTML/Forms/How_to_build_custom_form_widgets)
+- [Sending forms through JavaScript](/zh-CN/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript)
 - 旧式浏览器中的 HTML 表单使用
-- [Styling HTML forms](/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)
-- [Advanced styling for HTML forms](/en-US/docs/Learn/HTML/Forms/Advanced_styling_for_HTML_forms)
-- [Property compatibility table for form widgets](/en-US/docs/Learn/HTML/Forms/Property_compatibility_table_for_form_widgets)
+- [Styling HTML forms](/zh-CN/docs/Learn/HTML/Forms/Styling_HTML_forms)
+- [Advanced styling for HTML forms](/zh-CN/docs/Learn/HTML/Forms/Advanced_styling_for_HTML_forms)
+- [Property compatibility table for form widgets](/zh-CN/docs/Learn/HTML/Forms/Property_compatibility_table_for_form_widgets)

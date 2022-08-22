@@ -62,4 +62,4 @@ with(obj) {
 ## 相关链接
 
 - {{jsxref("Array.@@unscopables", "Array.prototype[@@unscopables]")}}
-- [`with`](/en-US/docs/Web/JavaScript/Reference/Statements/with) statement (not available in [Strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode))
+- [`with`](/zh-CN/docs/Web/JavaScript/Reference/Statements/with) statement (not available in [Strict mode](/zh-CN/docs/Web/JavaScript/Reference/Strict_mode))

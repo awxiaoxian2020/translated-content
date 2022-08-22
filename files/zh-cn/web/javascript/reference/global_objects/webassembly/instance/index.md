@@ -25,7 +25,7 @@ var myInstance = new WebAssembly.Instance(module, importObject);
 
 ## 实例化
 
-所有的 `Instance` 实例继承自`Instance()` [属性对象](/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance/prototype)— 修改它会影响所有的`Instance` 实例。
+所有的 `Instance` 实例继承自`Instance()` [属性对象](/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance/prototype)— 修改它会影响所有的`Instance` 实例。
 
 ### 实例属性
 
@@ -42,6 +42,6 @@ var myInstance = new WebAssembly.Instance(module, importObject);
 
 ## 参考
 
-- [WebAssembly](/en-US/docs/WebAssembly) overview page
-- [WebAssembly concepts](/en-US/docs/WebAssembly/Concepts)
-- [Using the WebAssembly JavaScript API](/en-US/docs/WebAssembly/Using_the_JavaScript_API)
+- [WebAssembly](/zh-CN/docs/WebAssembly) overview page
+- [WebAssembly concepts](/zh-CN/docs/WebAssembly/Concepts)
+- [Using the WebAssembly JavaScript API](/zh-CN/docs/WebAssembly/Using_the_JavaScript_API)

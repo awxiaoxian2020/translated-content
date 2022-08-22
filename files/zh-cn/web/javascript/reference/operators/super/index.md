@@ -161,5 +161,5 @@ obj2.method2(); // logs "method 1"
 
 ## 相关链接
 
-- [Classes](/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Classes](/zh-CN/docs/Web/JavaScript/Reference/Classes)
 - [Anurag Majumdar - Super & Extends in JavaScript](https://medium.com/beginners-guide-to-mobile-web-development/super-and-extends-in-javascript-es6-understanding-the-tough-parts-6120372d3420)

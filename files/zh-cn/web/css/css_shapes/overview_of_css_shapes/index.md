@@ -41,7 +41,7 @@ Specification 定义了三种新的权限：
 
 我们已经看到了 `circle()` 如何创建圆形形状。 `ellipse()` 则用来创建椭圆形形状。如果还有特殊要求，使用 `polygon()` 可以创建任意难度的形状。
 
-在我们的 [Guide to Basic Shapes](/en-US/docs/Web/CSS/CSS_Shapes/Basic_Shapes) 中，我们探索每一种形状，并且学会如何创建它们。
+在我们的 [Guide to Basic Shapes](/zh-CN/docs/Web/CSS/CSS_Shapes/Basic_Shapes) 中，我们探索每一种形状，并且学会如何创建它们。
 
 ### 含有 Box 参数的形状
 
@@ -58,13 +58,13 @@ Specification 定义了三种新的权限：
 
 {{EmbedGHLiveSample("css-examples/shapes/overview/box.html", '100%', 810)}}
 
-详见 [Shapes From Box Values](/en-US/docs/Web/CSS/CSS_Shapes/Shapes_From_Box_Values)。
+详见 [Shapes From Box Values](/zh-CN/docs/Web/CSS/CSS_Shapes/Shapes_From_Box_Values)。
 
 ### 由 Image 创建的形状
 
 有意思的是，可以使用带有 Alpha 通道的图像来创建（形状的）路径——文本将会围绕不透明的图像部分。这个特性允许文本覆盖图像，有时候可以将文本围绕于一幅不可见的图像，达到一种多边形文本显示的效果。
 
-需要注意的是，这种方式必须是 [CORS compatible](/en-US/docs/Web/HTTP/CORS) 的，否则 `shape-outside` 相当于 `none` ，你将不会得到任何形状。
+需要注意的是，这种方式必须是 [CORS compatible](/zh-CN/docs/Web/HTTP/CORS) 的，否则 `shape-outside` 相当于 `none` ，你将不会得到任何形状。
 
 在下面的例子中，我们有一幅全透明的图像，使用如下 URL，并且指定 `shape-outside`. 属性，创建出一个模糊的形状：一幅气球图像。
 
@@ -78,7 +78,7 @@ Specification 定义了三种新的权限：
 
 {{EmbedGHLiveSample("css-examples/shapes/overview/threshold.html", '100%', 820)}}
 
-下面我们进入更深层次的[Shapes from Images](/en-US/docs/Web/CSS/CSS_Shapes/Shapes_From_Images)学习。
+下面我们进入更深层次的[Shapes from Images](/zh-CN/docs/Web/CSS/CSS_Shapes/Shapes_From_Images)学习。
 
 ## `shape-margin` 属性
 

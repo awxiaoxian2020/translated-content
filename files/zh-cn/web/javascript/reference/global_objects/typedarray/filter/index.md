@@ -55,7 +55,7 @@ new Uint8Array([12, 5, 8, 130, 44]).filter(isBigEnough);
 
 ### 使用箭头函数过滤类型化数组的元素
 
-[箭头函数](/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 为相同测试提供了更短的语法。
+[箭头函数](/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 为相同测试提供了更短的语法。
 
 ```js
 new Uint8Array([12, 5, 8, 130, 44]).filter(elem => elem >= 10);
